@@ -19,73 +19,35 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
-    date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    name: "SnapCart",
+    description:
+      "SnapCart is a fast and intuitive e-commerce platform offering a seamless shopping experience with a wide range of products and quick checkout.",
+    date: "2024-08-15",
+    demoLink: "https://github.com/vindhya-14/SnapCart",
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
-    date: "2022-06-20",
-    demoLink: "https://artgalleryonline.example.com",
+    name: "UserHub",
+    description:
+      "UserHub is a user management app that enables easy addition, updating, and deletion of user profiles with a clean and intuitive interface.",
+    date: "2024-06-20",
+    demoLink: "https://github.com/vindhya-14/UserHub",
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
+    name: "Cipher-Hunt",
+    description:
+      "Test your intuition and logic in this exciting game where the challenge is to reveal the secret number hidden in plain sight.",
+    date: "2024-09-10",
+    demoLink: "https://github.com/vindhya-14/Cipher-Hunt",
   },
   {
     id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
-  },
-  {
-    id: 5,
-    name: "RecipeFinder",
-    description: "Discover new recipes",
-    date: "2022-07-12",
-    demoLink: "https://recipefinder.example.com",
-  },
-  {
-    id: 6,
-    name: "JourneyLogger",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
-  },
-  {
-    id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
-  },
-  {
-    id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
-  },
-  {
-    id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
-  },
-  {
-    id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
+    name: "URL-Shortener",
+    description:
+      "A URL Shortener is a tool that converts long URLs into shorter, more manageable links while maintaining their functionality. It often includes features like click tracking, analytics, and custom short links for enhanced usability and insights.",
+    date: "2024-05-30",
+    demoLink: "https://github.com/vindhya-14/URL-Shortener",
   },
 ];
 
@@ -96,28 +58,26 @@ export const BtnList = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://www.github.com/codebucks27",
+    link: "https://github.com/vindhya-14",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/vindhya-r1/",
     icon: "linkedin",
     newTab: true,
   },
   {
     label: "X",
-    link: "https://www.x.com/code_bucks",
+    link: "https://x.com/rrvindhya",
     icon: "twitter",
     newTab: true,
   },
   {
     label: "Resume",
-    link: "/resume.pdf",
+    link: "/Vindhya_Updated_Resume.pdf",
     icon: "resume",
     newTab: true,
   },
 ];
-
-

@@ -1,6 +1,6 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
-import Link from "next/link";
+
 
 const AboutDetails = () => {
   return (
@@ -15,36 +15,39 @@ const AboutDetails = () => {
             Architect of Enchantment
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+            My journey in web development is a thrilling adventure, where every
+            line of code unlocks new possibilities. JavaScript is my magic wand,
+            bringing ideas to life with interactivity and innovation. With
+            React.js and Next.js as my trusted allies, I craft seamless,
+            high-performance portals that connect users to extraordinary digital
+            experiences. Powered by the modern magic of Jamstack, I build
+            lightning-fast, secure, and scalable applications that redefine the
+            web. But beyond the code, design is my art—I blend functionality
+            with aesthetics to create experiences that don’t just work but leave
+            a lasting impression. Join me on this ever-evolving quest as I
+            explore new technologies, push creative boundaries, and shape the
+            future of the digital world! 🚀✨
           </p>
         </ItemLayout>
 
-        <ItemLayout
+        {/* <ItemLayout
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
             25+ <sub className="font-semibold text-base">clients</sub>
           </p>
-        </ItemLayout>
+        </ItemLayout> */}
 
-        <ItemLayout
+        {/* <ItemLayout
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
             4+{" "}
             <sub className="font-semibold text-base">years of experience</sub>
           </p>
-        </ItemLayout>
+        </ItemLayout> */}
 
-        <ItemLayout
+        {/* <ItemLayout
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
           <img
@@ -95,6 +98,15 @@ const AboutDetails = () => {
               loading="lazy"
             />
           </Link>
+        </ItemLayout> */}
+        
+        <ItemLayout className={"col-span-full"}>
+          <img
+            className="w-full h-auto"
+            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
+            alt="CodeBucks"
+            loading="lazy"
+          />
         </ItemLayout>
       </div>
     </section>
